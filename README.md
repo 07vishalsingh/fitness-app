@@ -2,64 +2,66 @@
  https://singh-gym.netlify.app/
 # Modern React 18 Fitness Exercises App With APIs
 
-Getting Started with Create React App
-This project was bootstrapped with Create React App.
+# Modern React 18 Fitness Exercises App With APIs
 
-Available Scripts
-In the project directory, you can run:
+This project is a modern fitness exercises app built with React 18, utilizing APIs from RapidAPI. It provides a user-friendly interface to explore and discover various fitness exercises.
+
+## Features
+
+- **React 18**: Utilizing the latest features and improvements in React.
+- **Material-UI**: UI components following Google's Material Design guidelines for a consistent and visually appealing user interface.
+- **RapidAPI Integration**: Accessing fitness-related data and services through RapidAPI's APIs.
+- **User-friendly Interface**: A clean and intuitive UI for a seamless user experience.
+
+## Getting Started
+
+Follow these instructions to get a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+- Node.js and npm installed on your machine.
+
+### Installing
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/07vishalsingh/fitness-app
+Navigate to the project directory:
+
+bash
+
+cd fitness-exercises-app
+Install dependencies:
+
+bash
+
+npm install
+Run the app:
+
+bash
 
 npm start
-Runs the app in the development mode.
-Open http://localhost:3000 to view it in your browser.
+The app should now be running locally. Open your browser and navigate to http://localhost:3000 to view it.
 
-The page will reload when you make changes.
-You may also see any lint errors in the console.
+API Configuration
+To configure API access, obtain an API key from RapidAPI and replace the placeholder key in the project files.
 
-npm test
-Launches the test runner in the interactive watch mode.
-See the section about running tests for more information.
+Open src/utils/api.js.
+Replace 'YOUR_RAPIDAPI_KEY' with your actual RapidAPI key.
+javascript
 
-npm run build
-Builds the app for production to the build folder.
-It correctly bundles React in production mode and optimizes the build for the best performance.
+const rapidApiKey = 'YOUR_RAPIDAPI_KEY';
+Contributing
+Feel free to contribute to the project by opening issues or submitting pull requests.
 
-The build is minified and the filenames include the hashes.
-Your app is ready to be deployed!
+License
+This project is licensed under the MIT License - see the LICENSE.md file for details.
 
-See the section about deployment for more information.
-
-npm run eject
-Note: this is a one-way operation. Once you eject, you can't go back!
-
-If you aren't satisfied with the build tool and configuration choices, you can eject at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except eject will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use eject. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-Learn More
-You can learn more in the Create React App documentation.
-
-To learn React, check out the React documentation.
-
-Code Splitting
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-Analyzing the Bundle Size
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-Making a Progressive Web App
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-Advanced Configuration
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-Deployment
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-npm run build fails to minify
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+css
 
 
- 
+Adjust the placeholders such as `YOUR_RAPIDAPI_KEY`, and update any other sections with relevant information about your app. Also, include a `LICENSE.md` file if you have chosen a specific license for your project.
+
+This README template provides a starting point, and you can customize it further based on the specific details of your app and how you want to present the information.
 
